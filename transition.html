@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition property</title>
+    <style>
+        .pseudo{
+          
+           height: 50px;
+           width: 200px;
+           background-color:forestgreen ;
+           border-radius: 20px;
+          border:2px dotted yellowgreen;
+           
+        }.pseudo:hover{
+            height: 57px;
+            width:190px;
+            background-color:blue;
+        }.pseudo:active{
+            background-color: #000000;
+           transition: all is  ease-in-out 0s;}
+        
+    </style>
+</head>
+<body>
+    <button class="pseudo">pseudo class</button>
+</body>
+</html>

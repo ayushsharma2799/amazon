@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transform</title>
+    <style>
+    #boxdox{
+        height:50px;
+        width:70px;
+        background-color: greenyellow;
+       border:2px double rgb(128, 128, 128);
+       
+        position: relative;
+        top: 100px;
+        transform:rotate(69deg);
+        font-weight: 700;
+        transition: all 0.5sec ease-in;
+        margin-right: 40px;
+        margin-bottom:40px;
+        }#boxdox:hover{
+           transform:rotatey(180deg);
+        }.classic{ width:90px;
+            height:80px;
+
+            border:2px double blue;
+            background-color: rgb(28, 117, 46);
+            position: relative;
+           top:100px;
+            transform:rotate(45deg);
+            font-weight: 700;
+            transition: all 0.5sec ease-in;
+
+        }
+    </style>
+</head>
+<body>
+    <div id ="boxdox">rotate45</div>
+    <div class="classic">rotate50</div>
+</body>
+</html>
